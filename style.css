@@ -1,0 +1,833 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    max-width: 100%;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+.header1 {
+    position: relative;
+}
+
+.containerh1 {
+    position: absolute;
+}
+
+.logobox {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.navbar {
+    position: absolute;
+    width: 800px;
+    left: 330px;
+}
+
+#navul {
+    list-style-type:none;
+	overflow: hidden;
+}
+
+li a {
+    display: inline;
+	color: black;
+	text-decoration: none;
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+li a:hover {
+    color: #fe0000;
+}
+
+a.Alinkch1:link, a.Alinkch1:visited {
+    color: black;
+    padding: 40px 25px 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+}
+
+a.Alinkch1:hover, a.Alinkch1:active {
+    color: #fe0000;
+}
+
+#options {
+    background-color: white;
+    width: 64px;
+    height: 23px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+#options:hover {
+    color: #fe0000;
+}
+
+.header2 {
+    position: relative;
+}
+
+.containerh2 {
+    position: absolute;
+}
+
+.imageboxh2 {
+    position: absolute;
+    left: 40px;
+    top: 100px;
+}
+
+.textboxh2 {
+    position: absolute;
+    top: 240px;
+    left: 105px;
+    width: 500px;
+}
+
+.buttonboxh2 {
+    position: absolute;
+    width: 200px;
+    top: 260px;
+}
+
+a.Alinkch2:link, a.Alinkch2:visited {
+    background-color: #fe0000;
+    color: white;
+    padding: 15px 35px 15px 35px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    border-radius: 7px;
+}
+
+a.Alinkch2:hover, a.Alinkch2:active {
+    background-color: #fe0000;
+    color: white;
+}
+
+.htbh2 {
+    font-size: 53px;
+}
+
+.ptbh2 {
+    font-size: 19px;
+    padding-top: 20px;
+}
+
+.section1 {
+    position: relative;
+    top: 600px;
+}
+
+.container1 {
+    position: absolute;
+    background-color: white;
+    width: 1263px;
+    height: 500px;
+}
+
+.textbox1c1 {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    text-align: center;
+}
+
+.htbc1 {
+    font-size: 42px;
+}
+
+.ptbc1 {
+    font-size: 17px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.textbox2ac1 {
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    text-align: center;
+}
+
+.textbox2bc1 {
+    position: absolute;
+    top: 300px;
+    left: 530px;
+    text-align: center;
+}
+
+.textbox2cc1 {
+    position: absolute;
+    top: 300px;
+    left: 770px;
+    text-align: center;
+}
+
+.number {
+    font-size: 70px;
+    color: #fe0000;
+}
+
+.label {
+    font-size: 17px;
+    color: black;
+}
+
+.section2 {
+    position: relative;
+    top: 1050px;
+}
+
+.container2 {
+    position: absolute;
+    background-color: white;
+    width: 1263px;
+    height: 500px;
+}
+
+.gridbox1 {
+    position: absolute;
+}
+
+.gridb1a {
+    position: absolute;
+    left: 30px;
+    background-color: white;
+    width: 390px;
+    height: 460px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.gridb1b {
+    position: absolute;
+    left: 440px;
+    background-color: white;
+    width: 390px;
+    height: 460px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.gridb1c {
+    position: absolute;
+    left: 850px;
+    background-color: white;
+    width: 390px;
+    height: 460px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.hgb1a, .hgb1b, .hgb1c {
+    font-size: 26px;
+    color: black;
+}
+
+.pgb1a, .pgb1b, .pgb1c {
+    font-size: 16px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+a.Alinkc2:link, a.Alinkc2:visited {
+    color: #fe0000;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+}
+
+a.Alinkc2:hover, a.Alinkc2:active {
+    color: #fe0000;
+}
+
+.txt-gb1a, .txt-gb1b, .txt-gb1c {
+    position: absolute;
+    padding: 30px;
+}
+
+.img-gb1a, .img-gb1b, .img-gb1c {
+    position: absolute;
+    top: 200px;
+}
+
+.section3 {
+    position: relative;
+    top: 1600px;
+}
+
+.container3 {
+    position: absolute;
+    background-color: white;
+    width: 1263px;
+    height: 550px;
+}
+
+.hc3 {
+    font-size: 24px;
+    color: black;
+    margin-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.gridbox2 {
+    position: absolute;
+    top: 150px;
+}
+
+.grid2a {
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 320px;
+    left: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.img-g2a {
+    position: absolute;
+}
+
+.txt-g2a {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+
+.htg2a, .htg2b, .htg2c {
+    font-size: 17px;
+    color: black;
+}
+
+.ptg2a, .ptg2b, .ptg2c {
+    font-size: 12px;
+    color: rgb(46, 46, 46);
+    padding-top: 20px;
+    padding-bottom: 28px;
+}
+
+a.Alinkc3:link, a.Alinkc3:visited {
+    color: #fe0000;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+}
+
+a.Alinkc3:hover, a.Alinkc3:active {
+    color: #fe0000;
+}
+
+.grid2b {
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 320px;
+    left: 340px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.img-g2b {
+    position: absolute;
+}
+
+.txt-g2b {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+
+.grid2c {
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 320px;
+    left: 650px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.img-g2c {
+    position: absolute;
+}
+
+.txt-g2c {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+
+.grid2d {
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 320px;
+    left: 960px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.img-g2d {
+    position: absolute;
+    left: 88px;
+    top: 60px;
+}
+
+.txt-g2d {
+    position: absolute;
+    top: 220px;
+    left: 88px;
+}
+
+.section4 {
+    position: relative;
+    top: 2150px;
+}
+
+.container4 {
+    position: absolute;
+    background-color: rgb(239, 239, 239);
+    width: 1180px;
+    height: 400px;
+    left: 40px;
+    border-radius: 30px;
+}
+
+.textboxc4 {
+    position: absolute;
+    top: 100px;
+    left: 330px;
+    text-align: center;
+}
+
+.htbc4 {
+    font-size: 28px;
+    color: black;
+}
+
+.ptbc4 {
+    font-size: 15px;
+    color: rgb(46, 46, 46);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    line-height: 25px;
+}
+
+a.Alinkc4:link, a.Alinkc4:visited {
+    color: #fe0000;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+}
+
+a.Alinkc4:hover, a.Alinkc4:active {
+    color: #fe0000;
+}
+
+.section5 {
+    position: relative;
+    top: 2620px;
+}
+
+.container5 {
+    position: absolute;
+}
+
+.textboxc5 {
+    position: absolute;
+    width: 500px;
+    left: 30px;
+}
+
+.htbc5 {
+    font-size: 50px;
+    color: black;
+}
+
+.ptbc5 {
+    font-size: 16px;
+    color: rgb(46, 46, 46);
+    padding-top: 40px;
+    line-height: 20px;
+}
+
+.gridbox3 {
+    position: absolute;
+    background-color: white;
+    width: 650px;
+    height: 430px;
+    left: 600px;
+}
+
+.grid3a {
+    position: absolute;
+    background-color: white;
+    width: 640px;
+    height: 80px;
+    top: 10px;
+    left: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.txtgb3 {
+    font-size: 24px;
+    padding-top: 23px;
+    padding-left: 24px;
+}
+
+.grid3b {
+    position: absolute;
+    background-color: white;
+    width: 640px;
+    height: 80px;
+    top: 112px;
+    left: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.grid3c {
+    position: absolute;
+    background-color: white;
+    width: 640px;
+    height: 80px;
+    top: 215px;
+    left: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.grid3d {
+    position: absolute;
+    background-color: white;
+    width: 640px;
+    height: 80px;
+    top: 315px;
+    left: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.section6 {
+    position: relative;
+    top: 3090px;
+}
+
+.container6 {
+    position: absolute;
+    background-color: rgb(239, 239, 239);
+    width: 1180px;
+    height: 530px;
+    left: 40px;
+    border-radius: 30px;
+}
+
+.textboxc6 {
+    position: absolute;
+    left: 20px;
+}
+
+.htbc6 {
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.gridbox4 {
+    position: absolute;
+}
+
+.grid4a {
+    position: absolute;
+    background-color: white;
+    width: 360px;
+    height: 300px;
+    top: 180px;
+    left: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.pg4a, .pg4b, .pg4c {
+    font-size: 15px;
+    color: rgb(46, 46, 46);
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.npg4a, .npg4b, .npg4c {
+    font-size: 15px;
+    color: black;
+    padding-left: 100px;
+}
+
+.grid4b {
+    position: absolute;
+    background-color: white;
+    width: 360px;
+    height: 300px;
+    top: 180px;
+    left: 410px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.grid4c {
+    position: absolute;
+    background-color: white;
+    width: 360px;
+    height: 300px;
+    top: 180px;
+    left: 800px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px rgb(216, 216, 216);
+}
+
+.section7 {
+    position: relative;
+    top: 3650px;
+}
+
+.container7 {
+    position: absolute;
+    background-color:white;
+    width: 1263px;
+    height: 300px;
+}
+
+.textboxc7 {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+}
+
+.p1tbc7 {
+    font-size: 17px;
+}
+
+.p2tbc7 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.gridbox5 {
+    position: absolute;
+}
+
+.grid5a {
+    position: absolute;
+    left: 440px;
+    top: 90px;
+}
+
+.grid5b {
+    position: absolute;
+    left: 640px;
+    top: 90px;
+}
+
+.grid5c {
+    position: absolute;
+    left: 840px;
+    top: 90px;
+}
+
+.grid5d {
+    position: absolute;
+    left: 1040px;
+    top: 90px;
+}
+
+.section8 {
+    position: relative;
+    top: 3939px;
+}
+
+.container8 {
+    position: absolute;
+    background-color: rgb(239, 239, 239);
+    width: 1263px;
+    height: 300px;
+}
+
+.textboxc8 {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.htbc8 {
+    font-size: 39px;
+}
+
+.ptbc8 {
+    font-size: 16px;
+}
+
+.textbox2 {
+    position: absolute;
+    top: 173px;
+    left: 660px;
+}
+
+.ptb2c8 {
+    font-size: 16px;
+}
+
+a.Alinkc8:link, a.Alinkc8:visited {
+    color: #fe0000;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 17px;
+}
+
+a.Alinkc8:hover, a.Alinkc8:active {
+    color: #fe0000;
+}
+
+.footer1 {
+    position: relative;
+    top: 4240px;
+}
+
+.fcontainer9 {
+    position: absolute;
+    background-color: rgb(239, 239, 239);
+    width: 1263px;
+    height: 507px;
+}
+
+.fgrid1 {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.hfg {
+    font-size: 20px;
+    color: black;
+}
+
+#footerul {
+    list-style-type:none;
+	overflow: hidden;
+}
+
+a.Alinkfc9:link, a.Alinkfc9:visited {
+    color: gray;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+}
+
+a.Alinkfc9:hover, a.Alinkfc9:active {
+    color: #fe0000;
+}
+
+.fgrid2 {
+    position: absolute;
+    top: 40px;
+    left: 250px;
+}
+
+.fgrid3 {
+    position: absolute;
+    top: 40px;
+    left: 500px;
+}
+
+.fgrid4 {
+    position: absolute;
+    top: 40px;
+    left: 800px;
+}
+
+.fgrid5 {
+    position: absolute;
+    top: 40px;
+    left: 999px;
+}
+
+.plystore {
+    position: absolute;
+    left: 100px;
+}
+
+.applstore {
+    position: absolute;
+}
+
+a.Alinkfg5:link, a.Alinkfg5:visited {
+    color: #fe0000;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 17px;
+}
+
+a.Alinkfg5:hover, a.Alinkfg5:active {
+    color: #fe0000;
+}
+
+.pfg5 {
+    font-size: 16px;
+    color: rgb(59, 59, 59);
+    margin-top: 66px;
+}
+
+.footer2 {
+    position: relative;
+    top: 4750px;
+}
+
+.fcontainer10 {
+    position: absolute;
+    background-color: rgb(239, 239, 239);
+    width: 1263px;
+    height: 200px;
+}
+
+.logobox2 {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+
+.textboxfc10 {
+    position: absolute;
+    text-align: right;
+    left: 730px;
+    width: 500px;
+    top: 50px;
+}
+
+.ptbfc10 {
+    font-size: 13px;
+    color: black;
+    line-height: 25px;
+}
